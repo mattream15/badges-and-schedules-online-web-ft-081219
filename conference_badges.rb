@@ -18,7 +18,7 @@ end
 return speakers_assignments
 end
 
-def printer(array)
+def printer(names)
   puts batch_badge_creator
 puts assign_rooms
 end
