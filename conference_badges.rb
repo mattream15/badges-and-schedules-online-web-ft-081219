@@ -28,4 +28,3 @@ speakers_assignments.each do |assignment|
   puts assignment
 end
 end
-end
