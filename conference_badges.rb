@@ -7,6 +7,7 @@ end
   array.each do |name|
     batch << "Hello, my name is #{name}."
    end 
+   return batch
   end
   
   #def assign_rooms(array, array_location)
