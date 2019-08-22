@@ -1,11 +1,12 @@
-def badge_maker
+def badge_maker(element)
+  "Hello, my name is #{element}."
+end
   def batch_badge_creator(array)
      batch = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   array.each do |name|
     puts "Hello, my name is #{name}."
    end 
   end
-end
   
   #def assign_rooms(array, array_location)
   #batch = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
