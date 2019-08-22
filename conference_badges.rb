@@ -22,7 +22,10 @@ def printer(names)
 batch = batch_badge_creator(names)
 batch.each do |badge|
   puts badge
+end
 speakers_assignments = assign_rooms(names)
 speakers_assignments.each do |assignment|
   puts assignment
+end
+end
 end
