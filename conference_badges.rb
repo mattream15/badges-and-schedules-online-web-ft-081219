@@ -15,5 +15,5 @@ end
   array.each_with_index do |name, index| 
     speakers_assignments << "Hello, #{name}! You'll be assigned to room #{index + 1}!"
 end
-puts speakers_assignments
+return speakers_assignments
 end
