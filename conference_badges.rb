@@ -1,6 +1,7 @@
 def badge_maker(element)
   "Hello, my name is #{element}."
 end
+
   def batch_badge_creator(array)
      batch = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   array.each do |name|
