@@ -6,7 +6,6 @@ end
     batch = []
   array.each do |name|
     batch << "Hello, my name is #{name}."
-    batch = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
    end 
   end
   
