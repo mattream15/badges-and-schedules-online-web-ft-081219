@@ -10,9 +10,9 @@ end
    return batch
   end
   
-  def assign_rooms(array, array_location)
+  def assign_rooms(array)
   speakers_assignments = []
-  array.each do |name| && array.each_with_index do |room_number|
+  array.each_with_index do |name, 
   puts "Hello, #{name}! You'll be assigned to room #{room_number}!
   speakers_assignments << each_with_index
 end
